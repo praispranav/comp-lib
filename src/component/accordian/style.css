@@ -1,0 +1,51 @@
+
+.main-container {
+    margin: 8em;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    font-size: 22px;
+}
+
+.accordion {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px ;
+margin: 0;
+    cursor: pointer;
+  }
+  
+  .accordion-header h2 {
+    margin: 0;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    display: none;
+  }
+  
+  .accordion-content.active {
+    display: block;
+  }
+  
+  .flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+  }
+
+  .content {
+    margin: 10px;
+  }

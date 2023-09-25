@@ -1,0 +1,33 @@
+/* NavBar.css */
+
+.navbar {
+    background-color: #EFF6FF;
+    color: #fff;
+    padding: 20px 0;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .nav-list {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #000 ;
+    font-weight: bold;
+  }
+  
+  .nav-item a:focus {   
+    border-bottom: 2px solid #1E3D8C;
+    color: #1E3D8C;
+
+  }
+  

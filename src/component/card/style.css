@@ -1,0 +1,27 @@
+.atm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6em;
+}
+.atm-card {
+  width: 35%;
+  border: 2px solid #dadeec;
+  color: #DADEEC;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.atm-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.atm-card-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5em;
+}
